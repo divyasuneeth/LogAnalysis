@@ -1,12 +1,12 @@
-#LogAnalysis
+# LogAnalysis
 
 This project will run from the command line. It doesn't take any input from the user. Instead, it will connect to that database, analyzes the log data, and prints out the answers to some questions.
 
-#Quickstart
+# Quickstart
 
 install vagrant ,run vagrant up , vagrant ssh
 
-##To install vargrant :
+## To install vargrant :
 Vagrant is the software that configures the VM and lets you share files between your host computer and the VM's filesystem. Download it from vagrantup.com. Install the version for your operating system.
 
 If Vagrant is successfully installed, you will be able to run vagrant --version
@@ -20,10 +20,10 @@ Change Directory to vagrant
 run cd /vagrant
 
 
-##Downlaod database news:
+## Downlaod database news:
 download newsdata.sql (https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip) database into the vagrant directory on your system.
 
-##TO LOAD DATA:
+## TO LOAD DATA:
 cd into the vagrant directory and use the command
 psql -d news -f newsdata.sql
 Here's what this command does:
@@ -46,7 +46,7 @@ The articles table includes the articles themselves.
 The log table includes one entry for each time a user has accessed the site.
 
 
-##Download LogAnalysis directory into vagrant directory. To run the python file LogAnalysisdb.py
+## Download LogAnalysis directory into vagrant directory. To run the python file LogAnalysisdb.py
 
 from commandline promp:
 cd into the /vagrant/LogAnalysis directory
