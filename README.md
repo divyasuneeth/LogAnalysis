@@ -1,6 +1,6 @@
 # LogAnalysis
 
-This project will run from the command line. It doesn't take any input from the user. Instead, it will connect to that database, analyzes the log data, and prints out the answers to some questions.
+This project will run from the command line. It is a reporting tool. It doesn't take any input from the user. Instead, it will connect to that database, analyzes the log data, and prints out the answers to some questions.
 
 # Quickstart
 
