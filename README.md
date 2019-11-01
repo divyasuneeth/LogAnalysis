@@ -16,7 +16,7 @@ run `vargrant up`
 followed by `vargrant ssh`
 to login into the newly installed virtual machine.
 
-** Change Directory to vagrant **
+**Change Directory to vagrant**
 run `cd /vagrant`
 
 
@@ -30,9 +30,9 @@ cd into the vagrant directory and use the command
 psql -d news -f newsdata.sql
 Here's what this command does:
 
-psql — the PostgreSQL command line program
--d news — connect to the database named news which has been set up for you
--f newsdata.sql — run the SQL statements in the file newsdata.sql
+* psql — the PostgreSQL command line program
+* -d news — connect to the database named news which has been set up for you
+* -f newsdata.sql — run the SQL statements in the file newsdata.sql
 
 ## Explore the data
 Once you have the data loaded into your database, connect to your database using `psql -d news` and explore the tables using the `\dt` and `\d` table commands and select statements.
@@ -43,9 +43,9 @@ Get a sense for what sort of information is in each column of these tables.
 
 The database includes three tables:
 
-* The ** authors ** table includes information about the authors of articles.
-* The ** articles ** table includes the articles themselves.
-* The ** log ** table includes one entry for each time a user has accessed the site.
+* The **authors** table includes information about the authors of articles.
+* The **articles** table includes the articles themselves.
+* The **log** table includes one entry for each time a user has accessed the site.
 
 
 ## Download LogAnalysis directory into vagrant directory.
